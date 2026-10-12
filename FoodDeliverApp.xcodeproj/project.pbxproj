@@ -6,14 +6,70 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		93003DAD30658A3100BABB37 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003D9230658A3100BABB37 /* CartItem.swift */; };
+		93003DAE30658A3100BABB37 /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003D9330658A3100BABB37 /* FoodCategory.swift */; };
+		93003DAF30658A3100BABB37 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003D9430658A3100BABB37 /* MenuItem.swift */; };
+		93003DB030658A3100BABB37 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003D9530658A3100BABB37 /* Order.swift */; };
+		93003DB130658A3100BABB37 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003D9630658A3100BABB37 /* Restaurant.swift */; };
+		93003DB230658A3100BABB37 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003D9730658A3100BABB37 /* User.swift */; };
+		93003DB330658A3100BABB37 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003D9A30658A3100BABB37 /* AuthService.swift */; };
+		93003DB430658A3100BABB37 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003D9C30658A3100BABB37 /* CartView.swift */; };
+		93003DB630658A3100BABB37 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003D9E30658A3100BABB37 /* HomeView.swift */; };
+		93003DB730658A3100BABB37 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003D9F30658A3100BABB37 /* LoginView.swift */; };
+		93003DB830658A3100BABB37 /* OrderTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003DA030658A3100BABB37 /* OrderTrackingView.swift */; };
+		93003DB930658A3100BABB37 /* RestaurantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003DA130658A3100BABB37 /* RestaurantDetailsView.swift */; };
+		93003DBA30658A3100BABB37 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003DA330658A3100BABB37 /* CartViewModel.swift */; };
+		93003DBB30658A3100BABB37 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003DA430658A3100BABB37 /* HomeViewModel.swift */; };
+		93003DBC30658A3100BABB37 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003DA530658A3100BABB37 /* LoginViewModel.swift */; };
+		93003DBD30658A3100BABB37 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003DA630658A3100BABB37 /* OrderViewModel.swift */; };
+		93003DBE30658A3100BABB37 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003DA730658A3100BABB37 /* RestaurantViewModel.swift */; };
+		93003DBF30658A3100BABB37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003DAA30658A3100BABB37 /* ContentView.swift */; };
+		93003DC030658A3100BABB37 /* FoodDeliverAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003DAB30658A3100BABB37 /* FoodDeliverAppApp.swift */; };
+		93003DC130658A3100BABB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93003DA930658A3100BABB37 /* Assets.xcassets */; };
+		93003DFE3066BA1A00BABB37 /* AddCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003DFD3066BA1A00BABB37 /* AddCartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		936C9C26307D55BD00860C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93091A3E3050142E00C0AECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93091A453050142E00C0AECA;
+			remoteInfo = FoodDeliverApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		93003D9230658A3100BABB37 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		93003D9330658A3100BABB37 /* FoodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
+		93003D9430658A3100BABB37 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		93003D9530658A3100BABB37 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		93003D9630658A3100BABB37 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		93003D9730658A3100BABB37 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		93003D9A30658A3100BABB37 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		93003D9C30658A3100BABB37 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		93003D9E30658A3100BABB37 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		93003D9F30658A3100BABB37 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		93003DA030658A3100BABB37 /* OrderTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTrackingView.swift; sourceTree = "<group>"; };
+		93003DA130658A3100BABB37 /* RestaurantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsView.swift; sourceTree = "<group>"; };
+		93003DA330658A3100BABB37 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		93003DA430658A3100BABB37 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		93003DA530658A3100BABB37 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		93003DA630658A3100BABB37 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		93003DA730658A3100BABB37 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
+		93003DA930658A3100BABB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93003DAA30658A3100BABB37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93003DAB30658A3100BABB37 /* FoodDeliverAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliverAppApp.swift; sourceTree = "<group>"; };
+		93003DFD3066BA1A00BABB37 /* AddCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCartView.swift; sourceTree = "<group>"; };
 		93091A463050142E00C0AECA /* FoodDeliverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		936C9C22307D55BD00860C65 /* FoodDeliverAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliverAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		93091A483050142E00C0AECA /* FoodDeliverApp */ = {
+		936C9C23307D55BD00860C65 /* FoodDeliverAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FoodDeliverApp;
+			path = FoodDeliverAppTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -26,13 +82,89 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		936C9C1F307D55BD00860C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93003D9830658A3100BABB37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93003D9230658A3100BABB37 /* CartItem.swift */,
+				93003D9330658A3100BABB37 /* FoodCategory.swift */,
+				93003D9430658A3100BABB37 /* MenuItem.swift */,
+				93003D9530658A3100BABB37 /* Order.swift */,
+				93003D9630658A3100BABB37 /* Restaurant.swift */,
+				93003D9730658A3100BABB37 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93003D9930658A3100BABB37 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93003D9B30658A3100BABB37 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				93003D9A30658A3100BABB37 /* AuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		93003DA230658A3100BABB37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93003D9C30658A3100BABB37 /* CartView.swift */,
+				93003D9E30658A3100BABB37 /* HomeView.swift */,
+				93003D9F30658A3100BABB37 /* LoginView.swift */,
+				93003DA030658A3100BABB37 /* OrderTrackingView.swift */,
+				93003DA130658A3100BABB37 /* RestaurantDetailsView.swift */,
+				93003DFD3066BA1A00BABB37 /* AddCartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93003DA830658A3100BABB37 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				93003DA330658A3100BABB37 /* CartViewModel.swift */,
+				93003DA430658A3100BABB37 /* HomeViewModel.swift */,
+				93003DA530658A3100BABB37 /* LoginViewModel.swift */,
+				93003DA630658A3100BABB37 /* OrderViewModel.swift */,
+				93003DA730658A3100BABB37 /* RestaurantViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		93003DAC30658A3100BABB37 /* FoodDeliverApp */ = {
+			isa = PBXGroup;
+			children = (
+				93003D9830658A3100BABB37 /* Model */,
+				93003DA230658A3100BABB37 /* View */,
+				93003DA830658A3100BABB37 /* ViewModel */,
+				93003D9B30658A3100BABB37 /* Service */,
+				93003D9930658A3100BABB37 /* Resources */,
+				93003DA930658A3100BABB37 /* Assets.xcassets */,
+				93003DAA30658A3100BABB37 /* ContentView.swift */,
+				93003DAB30658A3100BABB37 /* FoodDeliverAppApp.swift */,
+			);
+			path = FoodDeliverApp;
+			sourceTree = "<group>";
+		};
 		93091A3D3050142E00C0AECA = {
 			isa = PBXGroup;
 			children = (
-				93091A483050142E00C0AECA /* FoodDeliverApp */,
+				93003DAC30658A3100BABB37 /* FoodDeliverApp */,
+				936C9C23307D55BD00860C65 /* FoodDeliverAppTests */,
 				93091A473050142E00C0AECA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				93091A463050142E00C0AECA /* FoodDeliverApp.app */,
+				936C9C22307D55BD00860C65 /* FoodDeliverAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,15 +193,35 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				93091A483050142E00C0AECA /* FoodDeliverApp */,
-			);
 			name = FoodDeliverApp;
 			packageProductDependencies = (
 			);
 			productName = FoodDeliverApp;
 			productReference = 93091A463050142E00C0AECA /* FoodDeliverApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		936C9C21307D55BD00860C65 /* FoodDeliverAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936C9C2A307D55BD00860C65 /* Build configuration list for PBXNativeTarget "FoodDeliverAppTests" */;
+			buildPhases = (
+				936C9C1E307D55BD00860C65 /* Sources */,
+				936C9C1F307D55BD00860C65 /* Frameworks */,
+				936C9C20307D55BD00860C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				936C9C27307D55BD00860C65 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				936C9C23307D55BD00860C65 /* FoodDeliverAppTests */,
+			);
+			name = FoodDeliverAppTests;
+			packageProductDependencies = (
+			);
+			productName = FoodDeliverAppTests;
+			productReference = 936C9C22307D55BD00860C65 /* FoodDeliverAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -77,11 +230,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2660;
+				LastSwiftUpdateCheck = 2700;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
 					93091A453050142E00C0AECA = {
 						CreatedOnToolsVersion = 26.6;
+					};
+					936C9C21307D55BD00860C65 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 93091A453050142E00C0AECA;
 					};
 				};
 			};
@@ -100,12 +257,21 @@
 			projectRoot = "";
 			targets = (
 				93091A453050142E00C0AECA /* FoodDeliverApp */,
+				936C9C21307D55BD00860C65 /* FoodDeliverAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		93091A443050142E00C0AECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93003DC130658A3100BABB37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936C9C20307D55BD00860C65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,10 +285,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93003DAD30658A3100BABB37 /* CartItem.swift in Sources */,
+				93003DAE30658A3100BABB37 /* FoodCategory.swift in Sources */,
+				93003DAF30658A3100BABB37 /* MenuItem.swift in Sources */,
+				93003DB030658A3100BABB37 /* Order.swift in Sources */,
+				93003DB130658A3100BABB37 /* Restaurant.swift in Sources */,
+				93003DB230658A3100BABB37 /* User.swift in Sources */,
+				93003DB330658A3100BABB37 /* AuthService.swift in Sources */,
+				93003DB430658A3100BABB37 /* CartView.swift in Sources */,
+				93003DB630658A3100BABB37 /* HomeView.swift in Sources */,
+				93003DB730658A3100BABB37 /* LoginView.swift in Sources */,
+				93003DFE3066BA1A00BABB37 /* AddCartView.swift in Sources */,
+				93003DB830658A3100BABB37 /* OrderTrackingView.swift in Sources */,
+				93003DB930658A3100BABB37 /* RestaurantDetailsView.swift in Sources */,
+				93003DBA30658A3100BABB37 /* CartViewModel.swift in Sources */,
+				93003DBB30658A3100BABB37 /* HomeViewModel.swift in Sources */,
+				93003DBC30658A3100BABB37 /* LoginViewModel.swift in Sources */,
+				93003DBD30658A3100BABB37 /* OrderViewModel.swift in Sources */,
+				93003DBE30658A3100BABB37 /* RestaurantViewModel.swift in Sources */,
+				93003DBF30658A3100BABB37 /* ContentView.swift in Sources */,
+				93003DC030658A3100BABB37 /* FoodDeliverAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936C9C1E307D55BD00860C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		936C9C27307D55BD00860C65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93091A453050142E00C0AECA /* FoodDeliverApp */;
+			targetProxy = 936C9C26307D55BD00860C65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		93091A4F3050143000C0AECA /* Debug */ = {
@@ -310,6 +511,50 @@
 			};
 			name = Release;
 		};
+		936C9C28307D55BD00860C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AA43VH687;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.app.FoodDeliverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDeliverApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodDeliverApp";
+			};
+			name = Debug;
+		};
+		936C9C29307D55BD00860C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AA43VH687;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.app.FoodDeliverAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDeliverApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodDeliverApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +572,15 @@
 			buildConfigurations = (
 				93091A523050143000C0AECA /* Debug */,
 				93091A533050143000C0AECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936C9C2A307D55BD00860C65 /* Build configuration list for PBXNativeTarget "FoodDeliverAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936C9C28307D55BD00860C65 /* Debug */,
+				936C9C29307D55BD00860C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

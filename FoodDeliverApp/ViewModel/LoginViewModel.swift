@@ -16,11 +16,9 @@ final class LoginViewModel: ObservableObject {
     @Published var errorMessage: String?
     
     private let authService = AuthService()
-    
     func login() async {
         isLoading = true
         errorMessage = nil
-
         do {
             let success = try await authService.login(
                 email: email,
@@ -28,7 +26,6 @@ final class LoginViewModel: ObservableObject {
             )
 
             isLoginSuccess = success
-
             if success {
                 print("✅ Login Success")
             } else {
