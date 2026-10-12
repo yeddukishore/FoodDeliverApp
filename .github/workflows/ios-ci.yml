@@ -37,5 +37,25 @@ jobs:
             -destination 'platform=iOS Simulator,name=iPhone 17'\
             CODE_SIGNING_ALLOWED=NO \
             test
+     
+      - name: Archive iOS App
+        run: |
+          xcodebuild \
+            -project FoodDeliverApp.xcodeproj \
+            -scheme FoodDeliverApp \
+            -configuration Release \
+            -sdk iphoneos \
+            -archivePath "$RUNNER_TEMP/FoodDeliverApp.xcarchive" \
+            CODE_SIGNING_ALLOWED=NO \
+            archive
+
+      - name: Upload Xcode Archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: FoodDeliverApp-Archive
+          path: ${{ runner.temp }}/FoodDeliverApp.xcarchive
+          if-no-files-found: error
+          retention-days: 7
+
 
 
