@@ -5,13 +5,19 @@ on:
   push:
     branches: [main]
 
+  pull_request:
+    branches: [main]
+
 jobs:
-  build:
+  build-and-test:
     runs-on: macos-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Show Xcode version
+        run: xcodebuild -version
 
       - name: Build iOS App
         run: |
@@ -20,5 +26,16 @@ jobs:
             -scheme FoodDeliverApp \
             -sdk iphonesimulator \
             -configuration Debug \
+            CODE_SIGNING_ALLOWED=NO \
             build
+
+      - name: Run Unit Tests
+        run: |
+          xcodebuild \
+            -project FoodDeliverApp.xcodeproj \
+            -scheme FoodDeliverApp \
+            -destination 'platform=iOS Simulator,name=iPhone 16' \
+            CODE_SIGNING_ALLOWED=NO \
+            test
+
 
