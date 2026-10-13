@@ -73,10 +73,22 @@ jobs:
           echo "$IOS_CERTIFICATE_BASE64" |
             base64 -D > "$RUNNER_TEMP/certificate.p12"
 
-          security import "$RUNNER_TEMP/certificate.p12" \
-            -k "$KEYCHAIN_PATH" \
-            -P "$IOS_CERTIFICATE_PASSWORD" \
-            -T /usr/bin/codesign
+     
+
+test -s "$RUNNER_TEMP/certificate.p12"
+
+openssl pkcs12 \
+  -in "$RUNNER_TEMP/certificate.p12" \
+  -passin env:IOS_CERTIFICATE_PASSWORD \
+  -noout
+
+# Import certificate into the temporary keychain
+security import "$RUNNER_TEMP/certificate.p12" \
+  -f pkcs12 \
+  -k "$KEYCHAIN_PATH" \
+  -P "$IOS_CERTIFICATE_PASSWORD" \
+  -T /usr/bin/codesign
+
 
           security set-key-partition-list \
             -S apple-tool:,apple: \
